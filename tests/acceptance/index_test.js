@@ -13,10 +13,11 @@ test('index renders', function(){
   expect(3);
 
   visit('/').then(function(){
-    var title = find('h2#title');
-    var list = find('ul li');
+    var title = find('p.index-introduction');
+    var list = find('ul.index-stuff li');
 
-    equal(title.text(), 'Welcome to Ember.js');
+    var searchString = 'Please proceed to the';
+    equal(title.text().substr(0, searchString.length), searchString);
 
     equal(list.length, 3);
     equal(list.text(), 'redyellowblue');
