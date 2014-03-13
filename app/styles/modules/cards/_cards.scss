@@ -1,0 +1,12 @@
+.cards-list__overview {
+    margin-top: 2%;
+    list-style: none;
+    padding: 0 1%;
+}
+.cards-list__overview .card {
+    margin: 0.5% 0 0.5%;
+    padding: 0 1.5%;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    background: linear-gradient(to bottom, #d3cec6 0%, #e0db74 100%);
+}

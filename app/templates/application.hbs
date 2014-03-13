@@ -1,3 +1,26 @@
-<h2 id='title'>Welcome to Ember.js</h2>
-
-{{outlet}}
+<div class="main-wrapper">
+    <header>
+        <nav class="main-nav">
+            <ul class="main-nav__1stlvl">
+                <li>
+                    {{#link-to 'index'}}Home{{/link-to}}
+                </li>
+                <li>
+                    {{#link-to 'cards'}}Cards Overview{{/link-to}}
+                </li>
+                <li>
+                    {{#link-to 'login'}}Login Page{{/link-to}}
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        {{outlet}}
+    </div>
+    <footer>
+        <div class="footer">
+            <p>This is a footer text</p>
+            <a href="http://www.github.com">External Link (to Github)</a>
+        </div>
+    </footer>
+</div>

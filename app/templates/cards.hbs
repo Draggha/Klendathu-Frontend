@@ -1,0 +1,11 @@
+<h2 class="headline__overview">Cards overview</h2>
+<ul class="cards-list__overview">
+    {{#each}}
+    <li>
+        <div class="card">
+            <h1>{{this.title}}</h1>
+            <p>{{this.text}}</p>
+        </div>
+    </li>
+    {{/each}}
+</ul>

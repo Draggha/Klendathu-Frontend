@@ -1,4 +1,4 @@
-Klendathu.ApplicationAdapter = DS.RESTAdapter.extend({
+/*Klendathu.ApplicationAdapter = DS.RESTAdapter.extend({
     host: 'http://localhost:1337',
     namespace: 'eventbus'
 });
@@ -16,4 +16,4 @@ Klendathu.ApplicationRoute = Ember.Route.extend({
         
         
     }
-});
+});*/
